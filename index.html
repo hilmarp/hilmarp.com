@@ -1,15 +1,37 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" ng-app="hilmarpApp">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Hilmar P.</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <script src="js/modernizr.js"></script>
   </head>
   <body>
+    <nav id="bordi" class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">hilmarp.com</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#/">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="#/about">Um Mig</a></li>
+          <li><a href="#/contact">Hafa Samband</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <div ng-view></div>
     
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
+    <script src="http://code.angularjs.org/1.2.8/angular-route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

@@ -1,0 +1,12 @@
+html {
+	/*background-image: url(../img/squared_metal/squared_metal.png);*/
+}
+
+body {
+	background-image: url(../img/squared_metal/squared_metal.png);
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bordi {
+	margin-bottom: 30px;
+}
